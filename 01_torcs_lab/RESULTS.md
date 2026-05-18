@@ -15,5 +15,17 @@ CENTERING_GAIN=0.20, BRAKE_THRESHOLD=0.9, ENABLE_TRACTION_CONTROL=True)
 
 ---
 
-## Task 3: First Modification
-*(coming soon)*
+## Task 3: First Modification - Increased Target Speed
+
+**Parameter changed:** TARGET_SPEED = 100 → TARGET_SPEED = 150
+
+**What I observed:**
+- Car moved noticeably faster on straight sections
+- Struggled more in corners at higher speed
+- Went off track more frequently than baseline
+- Shows that higher speed requires better steering calibration
+
+**What I learned:**
+- Small parameter changes have big effects on behavior
+- Speed and stability are a tradeoff
+- Real AI engineers face the same balance in autonomous vehicles
