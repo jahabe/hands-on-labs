@@ -29,3 +29,16 @@ CENTERING_GAIN=0.20, BRAKE_THRESHOLD=0.9, ENABLE_TRACTION_CONTROL=True)
 - Small parameter changes have big effects on behavior
 - Speed and stability are a tradeoff
 - Real AI engineers face the same balance in autonomous vehicles
+
+## Reflection
+
+**One thing that surprised me:**
+- How much a single parameter change affected the car's behavior, just increasing speed made the whole driving style unstable
+
+**One thing I would try next:**
+- Adjust STEER_GAIN and BRAKE_THRESHOLD together with higher speed 
+to find a better balance between fast and stable driving
+
+**What this taught me about AI:**
+- AI systems require constant iteration and tuning during test to find the best plan 
+- Simulation is a safe way to experiment before real-world deployment
